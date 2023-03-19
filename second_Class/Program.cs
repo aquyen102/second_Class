@@ -10,12 +10,14 @@ namespace second_Class
     {
         static void Main(string[] args)
         {
+            //Khai bao bien
             Console.WriteLine("Xin moi nhap hai so nguyen a;b bat ky");
             Console.WriteLine("a=");
             int a= int.Parse(Console.ReadLine());
             Console.WriteLine("b=");
             int b = int.Parse(Console.ReadLine());
 
+            //Tinh thuong va ep kieu du lieu
             double c = (double)a / b;
             Console.WriteLine("Thuong hai so a&b da nhap la {0} ",c);
             Console.Write("<------------------>\n");
@@ -24,6 +26,7 @@ namespace second_Class
             Console.WriteLine("Thuong hai so a&b da nhap la {0} ", d);
             Console.Write("<------------------>\n");
 
+            //Tinh thuong bang phuong phap
             Console.WriteLine("Phan du cua phep chia a&b la "+ chia_lay_phan_du(a, b));
 
             Console.ReadKey();
